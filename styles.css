@@ -29,13 +29,13 @@ body{
     margin: 10px;
     padding: 5px 10px;
     border-radius: 3px;
-    border-style: none;
+    border: none;
+    /* border-style: none; */
     background-color: #191919;
 }
-/* #container input :active {
-    border: 1px solid green;
-} */
-
+#container input:focus {
+    border: 1px solid rgb(6, 60, 6);
+  }
 #para {
     color: white;
     margin: 10px 0 10px 0;
@@ -46,6 +46,35 @@ width: 380px;
 background-color: #2C2F34;
 margin-bottom: 10px;
 border-radius: 3px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.small-container a{
+    text-decoration: none;
+    background-color: #212121;
+    width: 51px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border-bottom: 5px solid #4285F4;
+
+}
+
+.small-container a :hover {
+    background-color: #4285F4;
+}
+#facebook {
+    border-bottom: 5px solid #3A558E;; 
+}
+
+#apple {
+    border-bottom: 5px solid #fff;
+}
+
+#yahoo{
+    border-bottom: 5px solid #7B0099; 
 }
 #para-2{
 color: white;
